@@ -1734,11 +1734,12 @@ h3 {
 		height: 250px;
 	}
 
-	.infoUs {
+	#infoUs {
 		background-image: url("/images/home/info/info-bg.jpg") !important;
 		background-size: cover !important;
 		background-position: center !important;
 		min-height: 300px;
+		margin-top: -10px !important;
 	}
 
 	.infoUs figure {

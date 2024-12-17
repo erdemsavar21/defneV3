@@ -1734,17 +1734,32 @@ h3 {
 		height: 250px;
 	}
 
-	#infoUs {
-		background-image: url("/images/home/info/info-bg.jpg") !important;
-		background-size: cover !important;
-		background-position: center !important;
-		min-height: 300px;
-		margin-top: -10px !important;
+	#infoUs::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url("/images/home/info/info-bg.jpg");
+	
+		background-position: center;
+		opacity: 0.5; /* Burada opaklık değerini değiştirin */
+		z-index: -1; /* İçeriğin arkasına yerleştirir */
 	}
+
 
 	.infoUs figure {
 		display: none;
 	}
+
+	.latest .posts_list aside h4.title {
+        text-align: center;
+    }
+    
+    .latest .posts_list aside p {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 480px) {

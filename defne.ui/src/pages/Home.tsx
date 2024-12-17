@@ -10,13 +10,7 @@ export default function Home() {
       <div id="main-content" className="main-content">
         <section
           id="infoUs"
-          className="section infoUs"
-          style={{
-            backgroundImage: "url(../images/home/info/IMG_BG_NEW.JPG)",
-            backgroundPosition: "right center",
-            backgroundRepeat: "no-repeat"
-          }}
-        >
+          className="section infoUs">
           <div className="container">
             <div className="row">
               <div className="col-sm-6 col-sm-push-6">

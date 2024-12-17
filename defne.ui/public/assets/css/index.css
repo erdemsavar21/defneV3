@@ -15,95 +15,125 @@ Content Tabel
 
 ========================================================================== */
 
-html, body{
+html,
+body {
 	height: 100%;
 }
-#wrap{
+
+#wrap {
 	margin-bottom: 56px;
 	min-height: 100%;
 }
-img{
+
+img {
 	max-width: 100%;
 }
-p{
+
+p {
 	margin: 0;
 }
-.header{
+
+.header {
 	background-image: url('../../images/about/about.jpg');
 	background-position: top center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: auto 100%; 
+	background-size: auto 100%;
 	background-size: 100% auto;
-    padding: 50px 0;
-    text-align: center;
+	padding: 50px 0;
+	text-align: center;
 }
-article{
+
+article {
 	padding: 25px 0;
 }
-article a{
+
+article a {
 	border-bottom: 3px solid #e27900;
 	background-color: #fafafa;
-    display: inline-block;
-    height: 350px;
-    position: relative;
-    text-indent: -9999px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center 0;
-    background-size: 100% auto;
-    background-image: url('../../images/screenshots/style_v1.jpg');
-    
-    -webkit-transition: all 3.5s;
-    transition: all 3.5s;
-    outline: none !important;
+	display: inline-block;
+	height: 350px;
+	position: relative;
+	text-indent: -9999px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: 100% auto;
+	background-image: url('../../images/screenshots/style_v1.jpg');
+
+	-webkit-transition: all 3.5s;
+	transition: all 3.5s;
+	outline: none !important;
 }
-article.style-v3 a{
+
+article.style-v3 a {
 	background-image: url('../../images/screenshots/style_v3.jpg');
 }
-article.style-v2 a{
+
+article.style-v2 a {
 	background-image: url('../../images/screenshots/style_v2.jpg');
 }
-article a:hover{
+
+article a:hover {
 	background-position: center 100%;
 }
-h3{
+
+h3 {
 	text-align: center;
 	text-transform: uppercase;
 	color: #000;
 }
-#footer{
+
+#footer {
 	height: 56px;
 	margin-top: 56px;
 }
-.copyright{
+
+.copyright {
 	line-height: 56px;
 	font-size: 14px;
 	text-align: center;
 	border-top: 1px solid;
-	
+
 }
+
 @media screen and (max-width: 1920px) {
-	article a{
+	article a {
 		height: 550px;
 	}
 }
+
 @media screen and (max-width: 767px) {
-	.header{
+	.header {
 		padding: 10px 0;
 	}
-	article a{
+
+	article a {
 		height: 250px;
 	}
+
+	.infoUs {
+		background-image: url("/images/home/info/info-bg.jpg") !important;
+		background-size: cover !important;
+		background-position: center !important;
+		min-height: 300px;
+	}
+
+	.infoUs figure {
+		display: none;
+	}
 }
+
 @media screen and (max-width: 480px) {
-	.logo img{
+	.logo img {
 		width: 120px;
 	}
+
 	article {
-	    padding: 15px 0 0;
+		padding: 15px 0 0;
 	}
-	article a{
+
+	article a {
 		height: 200px;
 	}
 }

@@ -716,9 +716,14 @@ Content Tabel
 	.style-v2 .nivo-caption-content .desc{
 		font-size: 16px;
 	}
-	.infoUs{
+	 .infoUs{
 		background-image: none !important;
 	}
+
+	.infoUs figure {
+		display: none;
+	  }
+
 	#services-item {
     	min-height: 60px;
     }

@@ -5,7 +5,7 @@ import Menu from './pages/Menu';
 import Galleries from './pages/Galleries';
 import Contacts from './pages/Contacts';
 
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Impressum from './pages/Impressum';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 
